@@ -17,7 +17,7 @@ public class Example2 {
 		XSSFWorkbook book=new XSSFWorkbook(file);//To open excel sheet
 		XSSFSheet sheet=book.getSheet("Sheet2");
 		XSSFRow row=sheet.getRow(0);
-		XSSFCell col=row.getCell(1);
+		XSSFCell col=row.getCell(2);
 		
 		System.out.println(col.getNumericCellValue());
 
